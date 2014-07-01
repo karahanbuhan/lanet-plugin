@@ -1,0 +1,17 @@
+name: Lanet
+version: 1.0
+main: me.Schaffer79.Lanet.Main
+author: karahanbuhan
+description: Oyuncularin bastigi yerleri degistiren eglenceli lanet eklentisi.
+
+commands:
+  lanetle:
+    description: Oyuncuyu lanetler ve bastigi yerleri degistirir.
+    usage: /lanetle <oyuncu>
+    permission: lanetle.lanetle
+    permission-message: Gerekli Yetkiye Sahip Degilsiniz!
+
+permissions:
+  lanetle.lanetle:
+    description: Lanet komutunu kullanma yetkisi.
+    default: op
